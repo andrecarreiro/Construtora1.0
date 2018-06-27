@@ -1,0 +1,129 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+body{
+    padding-top: 0px;
+    background: url(../imgs/spiration-light.png);
+}
+
+.topo{
+    padding-top:relative;
+    image-orientation: relative;
+    padding-left: 0px;
+    background-color: darkblue;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+section{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    min-height: 100vh;
+}
+.carousel-inner img {
+  margin: auto;
+}
+section{
+   
+    padding-top: 100px;
+    padding-bottom: 15px;
+    min-height: 100vh;
+}
+font {
+    font-family: 'Lato', sans-serif;
+    
+}
+
+section#contato{
+    min-height: 80vh;
+}
+form_imagem {
+    padding-top: 0px;
+    width: 500px;
+    height: 200px;
+    overflow: hidden;
+}
+
+Footer {
+    background-color:aliceblue;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 12px;
+}
+img.grayscale {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+/* Disable grayscale on hover */
+img:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+}
+
+.navbar-brand{
+    font-weight: 700;
+}
+.divslider{
+    padding-top: 15px;
+    padding-bottom: 15px;
+   /* background: url(../imgs//slider/Koala.jpg)*/
+}
+
+.div_colorida {
+    padding-top: relative;
+   background-color:url(../imgs/spiration-light.png) ;
+}
+
+.servicos_item * {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.home_imagem {
+    text-align: center;
+    
+    }
+
+.home_item h4 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.portifolio_item {
+    background: #c0c0c0;
+}
+
+
+.contato textarea {
+    height: 170px;
+}
+
+.contato .aviso {
+    padding: 15px;
+}
+
+
+.portifolio_item {
+    background: #c0c0c0;
+}
+
+
+.portifolio_row {
+    margin-bottom: 20px;
+}
+
+.portifolio_row:last-child  {
+    margin-bottom: 0px;
+}
+.portifolio_item h4 {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.section_interna {
+    padding-top: 0px;
+}
+

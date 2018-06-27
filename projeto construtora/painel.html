@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Painel Administrativo</title>
+        <!-- define a viewport -->
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300i,700" rel="stylesheet">
+        <!-- adicionar a css Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <!-- Estilo personalizado css -->
+        <link href="css/estilo.css" rel="stylesheet" media="screen"> 
+        <link href="css/estilo_painel.css" rel="stylesheet" media="screen"> 
+        
+    </head>
+        <body>
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Devmedia</a>
+        <i class="fab fa-affiliatetheme"></i>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fas fa-birthday-cake fa-2x"></i></a></li>
+          <li><a href="#"><i class="fab fa-android fa-2x"></i></a></li>
+          <li><a href="#"><i class="fas fa-edit fa-2x"></i></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              <span class="fi-people"><i class="fas fa-user fa-2x"></i></span><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Minha conta</a></li>
+            <li><a href="#">Trocar Senha</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Efetuar Logoff</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+            <div class="container-fluid">
+             <div class="row-fluid">
+                 
+                <div class="col-sm-3">
+                 <!--  menu avagação lateral-->
+                    <div class="panel panel-default">
+                        <div id="colGroup1" role="tab" class="panel-heading">
+                            <h4 class="panel-title">
+                                <a href="#colListGroup1" aria-controls="colListGroup1" aria-expanded="false" data-toggle="collapse">
+                                    <span class="glyphicon glyphicon-file"></span>
+                                    Gerenciar posts
+                                </a>
+                            </h4>
+                        </div>
+                        <div role="tabpanel" class="panel-collapse collapse " id="colListGroup1" aria-expanded="false">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="#">Criar novo post</a></li>
+                                <li class="list-group-item"><a href="#">Alterar post</a></li>
+                                <li class="list-group-item"><a href="#">Excluir post</a></li>
+                            </ul>
+                            <div class="panel-footer">
+                            </div>
+                        </div>
+                    </div>
+                 <!-- /. menu avagação lateral-->   
+                    <!--  menu avagação lateral-->
+                    <div class="panel panel-default">
+                        <div id="colGroup1" role="tab" class="panel-heading">
+                            <h4 class="panel-title">
+                                <a href="#colListGroup2" aria-controls="colListGroup2" aria-expanded="false" data-toggle="collapse">
+                                    <span class="glyphicon glyphicon-user"></span>
+                                    Gerenciar Usuarios
+                                </a>
+                            </h4>
+                        </div>
+                        <div role="tabpanel" class="panel-collapse collapse " id="colListGroup2" aria-expanded="false">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="#">Criar novo usuario</a></li>
+                                <li class="list-group-item"><a href="#">Alterar usuario</a></li>
+                                <li class="list-group-item"><a href="#">Excluir usuario</a></li>
+                            </ul>
+                            <div class="panel-footer">
+                            </div>
+                        </div>
+                    </div>
+                 <!-- /. menu avagação lateral-->   
+                    
+                </div>
+                 <div class="col-sm-9">
+                    <div class="conteudo_painel">
+                        <div class="conteudo_painel_int">
+                            
+                            <ul class="nav nav-pills" role="tablist">
+                                <li class="active"><a href"#">E-mails<span class="badge">10</span></a></li>
+                                <li class=""><a href"#">Aviso<span class="badge">30</span></a></li>
+                                <li class=""><a href"#">mensagens<span class="badge">20</span></a></li>
+                                <li class=""><a href"#">Aniversariantes<span class="badge">3</span></a></li>
+                            </ul>
+                                <hr/>
+                            <div class="well wrll-sm">
+                                <h2>Seja bem vindo Usuario</h2>
+                                <p>Utilize o menu ao lado para acessar as áreas do painel</p>
+                            </div>
+                            <div class="page-header"><h3>Avisos:</h3></div>
+                            <div class="alert alert-success">
+                                <strong>Parabéns vc foi recomendado!!!</strong>
+                            </div>
+                            <div class="alert alert-warning">
+                                <strong>Você tem ate o dia 00/00/0000 para ajustar suas ferias!!!</strong>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <h3>Minhas tarefas</h3>
+                                    <ul>
+                                        <li>Ligar para Fulano</li>
+                                        <li>Retornar e-mail para fulano</li>
+                                        <li>Outra tarefa</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary btn-block">Adicionar nova tarefa</a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                 </div>
+             </div>
+            </div>
+         
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
