@@ -1,0 +1,34 @@
+
+body{
+    background: url(../imgs/spiration-light.png);
+    padding-top: 80px
+}
+
+.form-login {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: #eee;
+    
+}
+
+.form-login input{
+    margin-bottom: 10px;
+}
+
+.panel {
+    margin-bottom: 0px;
+}
+
+.conteudo_painel {
+    background: white;
+    border-radius: 8px;
+    border:1px solid #eee;
+    box-shadow: 5px 5px 5px #888;
+}
+
+.conteudo_painel_int{
+    padding: 12px;
+}
