@@ -14,7 +14,7 @@ body{
     background-color: darkblue;
     font-variant: small-caps;
     font-size: 25px;
-}
+    }
 .navbar .navbar-nav {
 display: inline-block;
 float: none !important;
