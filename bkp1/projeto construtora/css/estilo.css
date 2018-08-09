@@ -4,16 +4,16 @@
 }
 
 body{
-    padding-top: 0px;
+    padding-top: 50px;
     background: url(../imgs/spiration-light.png);
+    font: ;
 }
 
 .topo{
-    padding-top:0px;
-    padding-left: relative;
+    padding-top:0px;    
     background-color: darkblue;
     font-variant: small-caps;
-    font-size: 25px;
+    font-size: 20px;
     }
 .navbar .navbar-nav {
 display: inline-block;
@@ -21,13 +21,15 @@ float: none !important;
 }
 
 .navbar .navbar-collapse {
-text-align: center;
+text-align: right;
+padding-right:20px;  
+padding-top: 50px;
+    font: arial;
 }
 .navbar-nav {
   padding-top: 15px;
   padding-bottom: 10px;
-  line-height: 20px;
-    color: ;   
+  line-height: 20px; 
 }
 section{
     padding-top: 25px;
@@ -97,7 +99,6 @@ img:hover {
 }
 .home_imagem {
     text-align: center;
-    
     }
 
 .home_item h4 {
